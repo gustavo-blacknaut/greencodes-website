@@ -1,0 +1,43 @@
+.card-container {  
+  display: flex;
+}
+
+.card-body {
+  width: 30%;
+  height: 250px;
+  border-radius: 6px;
+
+  margin: 30px;
+
+  color: #00ff00;
+  background-color: #23272a;
+
+  transition: background-color 1s, color 1s, transform 1500ms;
+}
+
+
+.card-title {
+   font-family: "Dancing Script", cursive;
+    justify-content: space-between;
+   text-align: center;
+}
+
+.card-text {
+  padding: 0 20px;
+  font-style: italic;
+  text-align: center;
+  color: #F8F8F8;
+}
+
+.card-body:hover {
+  transform: scale(1.1);
+  background-color: #008000;
+  color: BLACK;
+}
+
+.especial {
+    color: #00ff00;
+    text-align: center;
+    margin: 10px;
+}
+

@@ -1,0 +1,21 @@
+.inicio {
+    text-align: center;
+    color: WHITE;
+}
+
+.inicio-body {
+    text-align: center;
+    place-self: center;
+    font-size: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    color: grey;
+    text-decoration: none;
+}
+
+.inicio-body h3 {
+    color: #00ff00;
+}
+
+.inicio-body h5 {
+    color: WHITE;
+}

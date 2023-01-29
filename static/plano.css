@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2C2F33;
+}
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2C2F33;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2C2F33;
+}
+
+#mainMenu li > a > #btn-dashboard {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  width: 120px;
+  border: 1.5px solid #00ff00;
+  border-radius: 6px;
+  padding: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#mainMenu li > a > #btn-dashboard:hover {
+    background: #00ff00;
+    color: #212529;
+}
+
+#mainMenu li > a {
+  font-size: 16px;
+  color: #00ff00;
+  font-weight: 400;
+  z-index: 1;
+  text-decoration: none;/*Não remova!*/
+}
+
+.main-header.fixed-nav #mainMenu li > a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+#mainMenu li:not(:last-of-type) {
+  margin-right: 40px;
+}
+
+#mainMenu li {
+  width: 50px;
+}
+
+#mainMenu li > a::before {
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.main-header {
+  position: fixed;
+  top: 25px;
+  left: 0;
+  right: 0;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	color: #212529;
+}
+
+::-webkit-scrollbar-track {
+	background: #212529;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #00ff00;
+	border-radius: 10px;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #212529;
+	opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #212529;
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge  */
+	color: #212529;
+}
